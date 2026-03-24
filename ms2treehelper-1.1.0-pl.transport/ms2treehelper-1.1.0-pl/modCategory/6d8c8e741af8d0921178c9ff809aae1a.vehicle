@@ -1,0 +1,59 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '7fb80e8a4c96ddca5fe8d7e2439a1161' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => true,
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"ms2TreeHelper","description":"Adds compact bulk category action icons to the miniShop2 option categories tree.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * ms2TreeHelper plugin\\n * Loads manager JS. The script itself activates only in miniShop2 option windows.\\n *\\/\\nif ($modx->event->name !== \'OnManagerPageBeforeRender\') {\\n    return;\\n}\\n\\nif (empty($modx->controller) || !method_exists($modx->controller, \'addJavascript\')) {\\n    return;\\n}\\n\\n$url = MODX_ASSETS_URL . \'components\\/ms2treehelper\\/js\\/mgr\\/ms2treehelper.js?v=1.1.0\';\\n$modx->controller->addJavascript($url);","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * ms2TreeHelper plugin\\n * Loads manager JS. The script itself activates only in miniShop2 option windows.\\n *\\/\\nif ($modx->event->name !== \'OnManagerPageBeforeRender\') {\\n    return;\\n}\\n\\nif (empty($modx->controller) || !method_exists($modx->controller, \'addJavascript\')) {\\n    return;\\n}\\n\\n$url = MODX_ASSETS_URL . \'components\\/ms2treehelper\\/js\\/mgr\\/ms2treehelper.js?v=1.1.0\';\\n$modx->controller->addJavascript($url);"}',
+        'guid' => '4f100da9f87652bd2338321c6db7ae9b',
+        'native_key' => NULL,
+        'signature' => '78e8fb89a317b7c6351d392f4ad5fdb6',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+    ),
+  ),
+  'namespace' => 'ms2treehelper',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ms2treehelper-1.1.0-pl\\/modCategory\\/6d8c8e741af8d0921178c9ff809aae1a\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"ms2treehelper"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ms2treehelper-1.1.0-pl\\/modCategory\\/6d8c8e741af8d0921178c9ff809aae1a\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"ms2treehelper"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"ms2treehelper-1.1.0-pl\\/modCategory\\/6d8c8e741af8d0921178c9ff809aae1a.setup.resolver.resolver","type":"php","name":"setup.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bdaffa0ff9ccfc189918df9ecf3edcda',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '6d8c8e741af8d0921178c9ff809aae1a',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"ms2TreeHelper","rank":0}',
+);

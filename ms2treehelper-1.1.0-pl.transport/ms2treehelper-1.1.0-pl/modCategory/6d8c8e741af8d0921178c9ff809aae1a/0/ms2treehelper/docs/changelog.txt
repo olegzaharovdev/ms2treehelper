@@ -1,0 +1,44 @@
+ms2TreeHelper 1.1.0-pl [2026-03-25]
+===================================
+- Changed: replaced continuous setInterval scanning with MutationObserver-based detection.
+- Added: explicit miniShop2 context check before JS initialization.
+- Added: safer tooltip lifecycle with tooltip body cleanup on hide/blur.
+- Improved: toolbar icons are larger and more contrast.
+- Improved: basic debug logging via window.ms2TreeHelperDebug.
+- Fixed: setup.options.php version updated to 1.1.0-pl.
+- Fixed: package docs and metadata updated to current version and date.
+
+ms2TreeHelper 1.0.9-pl [2026-03-24]
+===================================
+- Added: native ExtJS tooltips for custom toolbar buttons in the miniShop2 option tree.
+- Added: tooltip body is filled on hover/focus and cleared on hide for cleaner manager behavior.
+- Improved: toolbar PNG icons are now larger, sharper and more contrast for MODX manager themes.
+- Fixed: custom buttons now use direct PNG background-image URLs from component assets.
+
+ms2TreeHelper 1.0.5-pl [2026-03-24]
+===================================
+- Added: compact icon buttons in the native tree toolbar style.
+- Changed: bulk actions are now rendered inside the existing toolbar next to expand, collapse and refresh.
+- Improved: fallback rendering preserved for non-standard manager layouts.
+
+ms2TreeHelper 1.0.4-pl [2026-03-24]
+===================================
+- Fixed: removed stale old file resolver paths from transport vehicle.
+- Fixed: plugin now loads manager JS without strict namespace dependency.
+- Fixed: JS now targets real miniShop2 option tree ids.
+- Added: DOM fallback for checkbox collection and hidden categories input sync.
+
+ms2TreeHelper 1.0.3-pl [2026-03-24]
+===================================
+- Fixed: corrected package version in build.transport.php to avoid manifest path mismatch during install.
+- Added: setup-options.php to show component description during install.
+- Updated: readme, license and changelog package attributes.
+
+ms2TreeHelper 1.0.2-pl [2026-03-24]
+===================================
+- Fixed: package builder fatal error in transport.plugins.php.
+- Improved: build.config.php path/url autodetection for non-standard MODX layouts.
+
+ms2TreeHelper 1.0.0-pl [2026-03-24]
+===================================
+- Initial release.
