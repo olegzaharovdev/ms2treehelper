@@ -35,7 +35,7 @@
 
 ## Автор
 
-**Oleg Zakharov with OpenAi Generated ChatGPT.com**
+**Idea Oleg Zakharov. Created with: OpenAi Generated ChatGPT.com, redactor Deepseek and Qwen Coder.**
 
 ## Лицензия
 
